@@ -1,1 +1,10 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lightindahouse/Ev0lve/main/universal",true))()
+repeat wait() until game:IsLoaded()
+local PlaceId = game.PlaceId
+
+if PlaceId == 4951130016 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lightindahouse/Ev0lve/main/kenetic%20abilities.lua",true))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lightindahouse/Ev0lve/main/universal",true))()
+end
+
+
