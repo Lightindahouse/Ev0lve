@@ -3,6 +3,8 @@ local PlaceId = game.PlaceId
 
 if PlaceId == 4951130016 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Lightindahouse/Ev0lve/main/kenetic%20abilities.lua",true))()
+elseif PlaceId == 155615604 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lightindahouse/Ev0lve/main/prision%20life",true))()
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Lightindahouse/Ev0lve/main/universal",true))()
 end
